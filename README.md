@@ -1,6 +1,48 @@
 # LAFF-On-PfHP
-Repository for "LAFF-On Programming for High Performance"
+Repository for my "LAFF-On Programming for High Performance" working dir.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## ..
 This repository holds the exercises related to the Massive Open Online
 Course "Programming for High Performance" to be offered on the edX
 platform.

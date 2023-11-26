@@ -32,7 +32,7 @@
 % Live Script (LAFF-On-HPC/Assignments/Week1/C/data/).  This Live Script then 
 % creates graphs from that timing data for the orderings that are selected in 
 % the Live Script by placing a 1 in the if statement right before the appropriate 
-% section of the Live Script, and for the IJP ordering (the section for which 
+% section of the Live Script, and for the JIP ordering (the section for which 
 % is not enclosed by a conditional statement). Plot_All_Orderings.mlx as downloaded 
 % already has a 1 in the if statement right before the PIJ ordering. Go ahead 
 % and click on "Run All".  It executes all the code in the rest of this file which, 
@@ -66,7 +66,7 @@ plot( data(:,1), data(:,5), 'DisplayName', 'IJP', 'MarkerSize', 8, 'LineWidth', 
       'Marker', 'o', 'LineStyle', '-.', 'Color', plot_colors( 2,: ) );
 
 % Plot time data for IPJ  (to plot change "0" to "1")
-if ( 0 ) 
+if ( 1 ) 
   output_IPJ   
   assert( max(abs(data(:,6))) < 1.0e-10, ...
       'Hmmm, better check if there is an accuracy problem');
@@ -75,7 +75,7 @@ if ( 0 )
 end
 
 % Plot time data for JIP  (to plot change "0" to "1")
-if ( 0 ) 
+if ( 1 ) 
   output_JIP   
   assert( max(abs(data(:,6))) < 1.0e-10, ...
       'Hmmm, better check if there is an accuracy problem');
@@ -84,7 +84,7 @@ if ( 0 )
 end
 
 % Plot time data for JPI  (to plot change "0" to "1")
-if ( 0 ) 
+if ( 1 ) 
   output_JPI   
   assert( max(abs(data(:,6))) < 1.0e-10, ...
       'Hmmm, better check if there is an accuracy problem');
@@ -102,7 +102,7 @@ if ( 1 )
 end
 
 % Plot time data for PJI  (to plot change "0" to "1")
-if ( 0 ) 
+if ( 1 ) 
   output_PJI   
   assert( max(abs(data(:,6))) < 1.0e-10, ...
       'Hmmm, better check if there is an accuracy problem');
